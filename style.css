@@ -1,0 +1,49 @@
+.header1 {
+    font-family: cursive;
+    color: rgb(255,255,255);
+    background-color: red;
+    padding: 5px;
+}
+
+.header2 {
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+.link {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.paragraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.table {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:beige;
+    border-style: double;
+    border-width: 10px;
+    color: blue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    border-style: groove;
+    border-radius: 20px;
+    border-width: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+}
+
+.button {
+    background-color: grey;
+    border-width: 5px;
+}
+

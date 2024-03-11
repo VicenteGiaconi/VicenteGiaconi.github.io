@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 class="header1">Vicente Giaconi</h1>
+        <h2 class="header2">Ingeniería Civil en Ciencias de la Computacion</h2>
+        <h2 class="header2">2021</h2>
+        <a class="link" href="https://github.com/VicenteGiaconi">Usuario de GitHub</a>
+        <div class="container">
+            <p class="paragraph">Nací el 16 de Noviembre de 2001, y tuve mi formación escolar en el Colegio Campanario. Soy alumno de cuarto año de Ingeniería Civil en Ciencias de la Computación, con experiencia laboral full-stack web development, me destaco por mi compromiso con los ideales de la institución y por mi constancia y esfuerzo a la hora de trabajar en equipo.</p>
+        </div>
+        <table class="table">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Admanced</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Interediate</td>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Git</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Spanish</td>
+                <td>Native</td>
+            </tr>
+        </table>
+
+    <input id="input1" type="text">
+
+    <button class="button" onclick="presionar()">Botón</button>
+    </body>
+    <div class="container">
+        <p id="object" class="paragraph">Observa los cambios aquí</p>
+    </div>
+    <script>
+        function presionar(e) {
+            document.getElementById("object").innerText = document.getElementById("input1").value;  
+        }
+    </script>
+</html>
